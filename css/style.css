@@ -52,10 +52,17 @@ body {
 input:checked + .slider {
   background-color: #1849ab;
 }
+h1{
+  font-size: 35px;
+  padding-bottom: 25px;
+}
 /*============= MEDIA QUERIES =============*/
 
-/* Devices under 768px (md) */
+/* mobile */
 @media (max-width: 767.98px) {
+  .caption {
+    max-width: 100%
+  }
   .caption h1 {
     font-size: 3rem;
     letter-spacing: .1rem;
@@ -66,11 +73,14 @@ input:checked + .slider {
     letter-spacing: .3rem;
     padding-bottom: .5rem;
   }
+  h1{
+    font-size: 25px;
+    padding: 25px 20px 25px 20px;
+  }
 }
 
 
 
-/*-- INCLUDED STYLE --*/
 
 /*--- Fixed Landing Page Section --*/
 .landing {
