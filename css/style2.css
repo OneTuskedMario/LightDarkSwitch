@@ -31,8 +31,9 @@ body {
   text-shadow: .2rem .2rem .8rem white;
   padding-bottom: 1.2rem;
 }
-.caption h3 span{
-  display: none;
+
+.caption > h3 > span{
+  display:none;
 }
 .caption > .yin > h3{
   font-size: 4rem;
@@ -53,19 +54,27 @@ body {
 input:checked + .slider {
   background-color: #1849ab;
 }
-/*============= MEDIA QUERIES =============*/
+h1{
+  font-size: 35px;
+  padding-bottom: 25px;
+}
 
-/* Devices under 768px (md) */
+
+/* mobile */
 @media (max-width: 767.98px) {
   .caption h1 {
     font-size: 3rem;
     letter-spacing: .1rem;
     padding-bottom: .5rem;
   }
-  .caption h3 {
+  .caption > .yin > h3{
     font-size: 2rem;
     letter-spacing: .3rem;
     padding-bottom: .5rem;
+  }
+  h1{
+    font-size: 25px;
+    padding: 25px 20px 25px 20px;
   }
 }
 
