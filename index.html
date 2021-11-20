@@ -5,11 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Homepage</title>
+  <title>OneTusked</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link id="style1" rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="css/styles2.css" as="style">
   <link rel="stylesheet" href="css/animate.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type"image/x-icon" href="img/favicon.ico">
 </head>
 
 <body>
@@ -68,7 +70,7 @@
     function toggle() { // toggle
       var a = document.getElementById("style1"); // style sheet id
       a.x = 'css/style2' == a.x ? 'css/style' : 'css/style2'; //switch file loop
-      a.href = a.x + '.css'; //add .css
+      a.href = a.x + '.css';
     }
   </script>
   <!-- Javascript! -->
@@ -76,7 +78,5 @@
   <script src="js/bootstrap.min.js"></script>
 
 </body>
-<div id="preload">
-  <img src="../img/pic5.jpg"/>
-</div>
+
 </html>

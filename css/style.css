@@ -10,9 +10,7 @@ body {
   height: 100vh;
   background-color: #1b1327;
 }
-div#preload{
-  display: none;
-}
+
 .home-inner{
   background-image: url("../img/mountain.jpg");
   opacity: .55;
